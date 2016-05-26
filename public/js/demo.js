@@ -14,14 +14,13 @@
  * limitations under the License.
  */
 
- /* global $:false, setupUse */
 'use strict';
 
 /**
  * Returns the next hour as Date
  * @return {Date} the next hour
  */
-// eslint-disable-next-line no-unused-vars
+/* exported nextHour */
 function nextHour() {
   var oneHour = new Date();
   oneHour.setHours(oneHour.getHours() + 1);
@@ -34,7 +33,7 @@ function nextHour() {
  * @param  {int} maxSize maximum size
  * @return {String}         The base64 resized image
  */
-// eslint-disable-next-line no-unused-vars
+/* exported resize */
 function resize(image, maxSize) {
   var c = window.document.createElement('canvas');
   var ctx = c.getContext('2d');

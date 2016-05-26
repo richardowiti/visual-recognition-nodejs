@@ -13,18 +13,16 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-/* global _:true, resize:true, Cookies:true, scrollToElement:true */
-/* eslint no-unused-vars: "warn"*/
+/* global _, resize, Cookies, scrollToElement */
 'use strict';
 
-/*
+/**
  * Setups the "Try Out" and "Test" panels.
  * It connects listeners to the DOM elements in the panel to allow
  * users to select an existing image or upload a file.
  * @param params.panel {String} The panel name that will be use to locate the DOM elements.
  */
-
-// eslint-disable-next-line no-unused-vars
+/* exported setupUse */
 function setupUse(params) {
   var panel = params.panel || 'use';
   console.log('setupUse()', panel);

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-/* global Cookies:true, nextHour, currentPage, setupUse */
+/* global Cookies, nextHour, currentPage, setupUse */
 
 'use strict';
 
